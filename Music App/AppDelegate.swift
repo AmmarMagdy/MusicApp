@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
+        
+        let mainStoryBoard = UIStoryboard(name: "Main", bundle: nil )
+        let homeVC = mainStoryBoard.instantiateViewController(withIdentifier: "HomeNavigationController")
+        let loginVC = mainStoryBoard.instantiateViewController(withIdentifier: "LoginNavigationController")
+        
+        if let accessToken = LocalData.shared.getAccessToken() {
+            // go to home
+            self.window?.rootViewController = homeVC
+        } else {
+            // go to sign in
+            self.window?.rootViewController = loginVC
+        }
+        
         return true
     }
 

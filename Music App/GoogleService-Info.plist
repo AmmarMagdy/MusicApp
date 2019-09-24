@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>982187010623-46aj1q8otj1khcblaoudbsj4rk9jgbem.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.982187010623-46aj1q8otj1khcblaoudbsj4rk9jgbem</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCROcTQdL0CfqsMhR3IOFtxRNcEvO9GOZA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>982187010623</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Com.UpClicks.Music-App</string>
+	<key>PROJECT_ID</key>
+	<string>music-app-9d73d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>music-app-9d73d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:982187010623:ios:6fc3a0e731a15617</string>
+	<key>DATABASE_URL</key>
+	<string>https://music-app-9d73d.firebaseio.com</string>
+</dict>
+</plist>
